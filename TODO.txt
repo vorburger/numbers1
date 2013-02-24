@@ -1,0 +1,22 @@
+JS Learning
+===========
+
+* Automated Testcase! Mocha? WebDriver?
+
+* how-to encapsulate functionality? For Fun, create a.. Sprite class?
+
+* DnD, and how to change "source" (whatever it is; JS or JSON)
+
+
+Game
+====
+
+* Style it.. bigger number, indent
+
+* +1/2/3
+
+* -
+
+* sounds.. "1 + 1 is 2"
+
+* change Sprite & Backgrounds ("Themes")
