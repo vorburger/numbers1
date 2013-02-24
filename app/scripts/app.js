@@ -1,6 +1,6 @@
 /**
  * numbers1 JS.
- * 
+ *
  * @author Michael Vorburger
  */
 define([], function() {
@@ -12,11 +12,11 @@ define([], function() {
 	};
 
 	var n = 0;
-	$("p").text("The DOM is now loaded and can be manipulated.");
-	
+	//$("p").text("The DOM is now loaded and can be manipulated.");
+
 	$(document).keydown(function(e) {
 		switch (e.which) {
-		
+
 		case arrow.right:
 			if (n < 10) {
 				++n;
@@ -32,7 +32,7 @@ define([], function() {
 		default: return;
 		}
 
-		// For all handled keys (so unless default: return).. 
+		// For all handled keys (so unless default: return)..
 
 		console.log("n = " + n);
 		$("#number").text(n);
@@ -43,7 +43,7 @@ define([], function() {
 				$("#img" + i).css("visibility", "hidden");
 			}
 		}
-		
+
 		// And lastly, this prevents default action (eg. page moving up/down)
 	    // but consider accessibility (eg. user may want to use keys to choose a radio button)
 		// TODO Is this really good?!
